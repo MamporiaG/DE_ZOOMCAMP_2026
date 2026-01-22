@@ -1,0 +1,7 @@
+Question 1. What's the version of pip in the python:3.13 image? (1 point)
+
+Answer: docker run -it python:3.13 pip --version
+
+Question 7. Which of the following sequences describes the Terraform workflow for: 1) Downloading plugins and setting up backend, 2) Generating and executing changes, 3) Removing all resources? (1 point)
+
+terraform init, terraform apply -auto-approve, terraform destroy
